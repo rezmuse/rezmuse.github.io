@@ -7,8 +7,8 @@
 
 body {
     font-family: "Poppins", sans-serif;
-   background: url(us.jpg) no-repeat center center fixed;
-background-size: cover;
+    background: url(us.jpg) no-repeat center center fixed;
+    background-size: cover;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -112,13 +112,12 @@ button:hover {
 .question {
     display: none;
     margin-top: 20px;
-    background: rgba(255, 255, 255, 0.3); /* transparent */
+    background: rgba(255, 255, 255, 0.3);
     padding: 20px;
     border-radius: 12px;
-    backdrop-filter: blur(6px); /* smooth blur */
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* subtle shadow */
+    backdrop-filter: blur(6px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
-
 
 /* Final Message */
 .final-message {
@@ -126,7 +125,9 @@ button:hover {
     margin-top: 20px;
     font-size: 18px;
     color: #333;
+} /* ← FIXED closing curly here */
 
+/* Typing animation */
 @keyframes typing {
     from { width: 0; }
     to { width: 100%; }
@@ -150,3 +151,4 @@ button:hover {
     0% { opacity: 0; transform: translateY(40px); }
     100% { opacity: 1; transform: translateY(0); }
 }
+
