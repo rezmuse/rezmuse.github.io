@@ -10,7 +10,7 @@ function createHearts() {
     setInterval(() => {
         let heart = document.createElement("div");
         heart.classList.add("heart");
-        heart.innerHTML = "❤️";
+        heart.innerHTML = "❤️ 🫶";
         heart.style.left = Math.random() * 100 + "vw";
         heart.style.fontSize = (15 + Math.random() * 20) + "px";
         heartsContainer.appendChild(heart);
