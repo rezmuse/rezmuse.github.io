@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Saee ❤️</title>
+    <link rel="stylesheet" href="saee.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Floating Hearts Container -->
+    <div class="hearts"></div>
+
+    <!-- Background Song -->
+    <audio id="bgMusic" autoplay loop>
+        <source src="https://files.catbox.moe/7sz1fc.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="container fade-in">
+        <h1 class="title glow">Hey SAEE! 💖</h1>
+
+        <p class="heartfelt-message">
+            I just wanted to tell you how much you mean to me.  
+            Every moment with you is special, and I feel so lucky to have you in my life.  
+            You make everything feel magical… and I love you for that. ❤️
+        </p>
+
+        <!-- Continue Button -->
+        <div class="continue-button-container">
+            <button class="continue pop" onclick="showQuestions()">Would you like to continue?</button>
+        </div>
+
+        <div class="question-container" id="questionContainer">
+            
+            <!-- Question 1 -->
+            <div class="question" id="question1">
+                <p>Can you forgive me?<br>
+                <i>(It was a huge mistake. I didn’t mean to hurt you… please don’t cry, my devi.)</i></p>
+
+                <button class="yes" onclick="nextQuestion('yes', 1)">Yes</button>
+                <button class="no" onclick="nextQuestion('no', 1)">No</button>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="question" id="question2">
+                <p>Will you be my girlfriend? (I wanna be yours)<br>
+                <i>(I’m never leaving you… never even thought about it. Muwah ❤️)</i></p>
+
+                <button class="yes" onclick="nextQuestion('yes', 2)">Yes</button>
+                <button class="no" onclick="nextQuestion('no', 2)">No</button>
+            </div>
+
+            <!-- Final message -->
+            <div class="final-message" id="finalMessage">
+                <p id="responseMessage" class="typing-text"></p>
+            </div>
+        </div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script src="saee.js"></script>
+
+</body>
+</html>
