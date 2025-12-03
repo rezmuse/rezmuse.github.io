@@ -7,7 +7,8 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    background: linear-gradient(to bottom right, #ffc3a0, #ffafbd);
+   background: url(https://scontent.fpnq13-3.fna.fbcdn.net/v/t1.15752-9/590233899_1162831749329563_6064199865618434448_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_ohc=SsBO4jgY1iEQ7kNvwGCz4mm&_nc_oc=AdmleRETKkyMtztp9qn7I0Z4HFFNLgZtooU3FihiX3WnvL-xpD8BK9IEJAAdL-nWu70y4VKsMZAuPFs2riRoCFrR&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fpnq13-3.fna&oh=03_Q7cD4AGsz6SvJH8i3EzRElvfrEnb8oiEQL2zKoLgZaj6UZOAHw&oe=69575586) no-repeat center center fixed;
+background-size: cover;
     min-height: 100vh;
     display: flex;
     justify-content: center;
