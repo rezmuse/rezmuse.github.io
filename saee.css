@@ -83,7 +83,8 @@ button {
     transition: 0.3s;
 }
 
-.yes, .continue {
+.yes,
+.continue {
     background-color: #ff5e78;
     color: white;
 }
@@ -125,7 +126,5 @@ button:hover {
     margin-top: 20px;
     font-size: 18px;
     color: #333;
-} /* ← FIXED closing curly here */
-
-
+}
 
