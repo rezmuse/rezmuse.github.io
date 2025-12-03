@@ -55,7 +55,8 @@ background-size: cover;
 
 /* Glow Text */
 .glow {
-    text-shadow: 12px 12px 12px #ff2e63;
+    text-shadow: 0
+        px 0px 12px #ff2e63;
 }
 
 .title {
