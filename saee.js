@@ -36,13 +36,13 @@ function nextQuestion(answer, number) {
 
         if (answer === "yes") {
             finalText(
-                "YEPPPII!!! ❤️ I miss you already… but I'll wait. You mean everything to me, my devi. You're the one. I love you forever. ❤️"
+                "  You mean everything to me I love khupppppp jasttaaaa ❤️ "
             );
 
             confettiBlast();
         } else {
             finalText(
-                "No??? 😳 Not possible… but fine 😤 we can be friends. (I’m still not giving up on you 😏)"
+                "No T_T 😳 Not possible… better luck next time )"
             );
         }
     } else {
