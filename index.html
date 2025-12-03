@@ -8,7 +8,6 @@
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
@@ -25,20 +24,29 @@
         <h1 class="title glow">Hey SAEE! 💖</h1>
 
         <p class="heartfelt-message">
-            i know i made a huge mistake , had no intention to direspect you or hurt you but shevti mi mmanus n tu dino chuka mansan kada hota ha yecha artha ha nahi dar veles maaf kela payeh but i ur baby so u gonna baksh me  (kay aap hame bakshoge )❤️
+            I know I made a huge mistake… I never intended to disrespect or hurt you.
+            But at the end of the day, I am a human, and humans make mistakes.
+            That doesn’t mean you have to forgive me every time — 
+            but I’m your baby, so you’re going to forgive me this time, right?
+            (kya aap hume bakshoge?) ❤️
         </p>
 
         <!-- Continue Button -->
         <div class="continue-button-container">
-            <button class="continue pop" onclick="showQuestions()">Would you like to continue?(yes you would🔫)</button>
+            <button class="continue pop" onclick="showQuestions()">
+                Would you like to continue? (yes you would 🔫)
+            </button>
         </div>
 
-        <div class="question-container" id="questionContainer">
-            
+        <div id="questionContainer">
+
             <!-- Question 1 -->
             <div class="question" id="question1">
-                <p>will you let your trust give me anothr chance me? ill change i promise pinky promise <br>
-                <i>(I didn’t mean to break your trust 🙏 )</i></p>
+                <p>
+                    Will you let your trust give me another chance?  
+                    I’ll change — I promise, *pinky promise*.  
+                    <br><i>(I didn’t mean to break your trust 🙏)</i>
+                </p>
 
                 <button class="yes" onclick="nextQuestion('yes', 1)">Yes</button>
                 <button class="no" onclick="nextQuestion('no', 1)">No</button>
@@ -46,8 +54,10 @@
 
             <!-- Question 2 -->
             <div class="question" id="question2">
-                <p> you mine 👉👈 (I wanna be yours)<br>
-                <i>( Muwahhhhhhh ❤️)</i></p>
+                <p>
+                    You mine? 👉👈 (I wanna be yours)  
+                    <br><i>(Muwahhhh ❤️)</i>
+                </p>
 
                 <button class="yes" onclick="nextQuestion('yes', 2)">Yes</button>
                 <button class="no" onclick="nextQuestion('no', 2)">No</button>
@@ -57,11 +67,16 @@
             <div class="final-message" id="finalMessage">
                 <p id="responseMessage" class="typing-text"></p>
             </div>
+
         </div>
     </div>
 
-<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
-<script src="saee.js"></script>
+    <!-- Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+    <!-- Your JS -->
+    <script src="saee.js"></script>
 
 </body>
 </html>
+
