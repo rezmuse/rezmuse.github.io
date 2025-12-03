@@ -15,8 +15,8 @@
     <!-- Floating Hearts Container -->
     <div class="hearts"></div>
 
-    <!-- Background Song -->
-    <audio id="bgMusic" autoplay loop>
+    <!-- Background Music -->
+    <audio id="bgMusic" autoplay loop muted>
         <source src="https://files.catbox.moe/7sz1fc.mp3" type="audio/mp3">
     </audio>
 
@@ -44,7 +44,7 @@
             <div class="question" id="question1">
                 <p>
                     Will you let your trust give me another chance?  
-                    I’ll change — I promise, *pinky promise*.  
+                    I’ll change — I promise, <b>pinky promise</b>.  
                     <br><i>(I didn’t mean to break your trust 🙏)</i>
                 </p>
 
@@ -63,7 +63,7 @@
                 <button class="no" onclick="nextQuestion('no', 2)">No</button>
             </div>
 
-            <!-- Final message -->
+            <!-- Final Message -->
             <div class="final-message" id="finalMessage">
                 <p id="responseMessage"></p>
             </div>
@@ -77,6 +77,17 @@
     <!-- Your JS -->
     <script src="saee.js"></script>
 
+    <!-- Fix fade-in animation -->
+    <style>
+        .fade-in {
+            animation: fadeIn 0.9s ease forwards;
+            opacity: 0;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+
 </body>
 </html>
-
